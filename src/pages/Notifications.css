@@ -1,0 +1,125 @@
+/* Notifications.css */
+
+/* General Container Styles */
+.notifications-container {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    background-color: #f4f7fc;
+  }
+  
+  /* Hero Section */
+  .notifications-hero {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .notifications-title {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .notifications-subtitle {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* Notifications List */
+  .notifications-list-container {
+    margin-bottom: 40px;
+  }
+  
+  .notification-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .notification-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Notification Types */
+  .notification-card.success {
+    border-left: 5px solid #4caf50;
+  }
+  
+  .notification-card.error {
+    border-left: 5px solid #f44336;
+  }
+  
+  .notification-card.info {
+    border-left: 5px solid #2196f3;
+  }
+  
+  .notification-message {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .notification-time {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .notification-details-button {
+    color: #2196f3;
+    font-size: 18px;
+  }
+  
+  /* Snackbar */
+  .snackbar-info {
+    background-color: #2196f3;
+  }
+  
+  .snackbar-success {
+    background-color: #4caf50;
+  }
+  
+  .snackbar-error {
+    background-color: #f44336;
+  }
+  
+  /* Notification Details Dialog */
+  .MuiDialog-paper {
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .MuiDialogTitle-root {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .MuiDialogContent-root {
+    font-size: 16px;
+  }
+  
+  .notification-detail-message {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .notification-detail-time {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  /* Button Styles */
+  .MuiButton-contained {
+    background-color: #2196f3;
+    color: #fff;
+  }
+  
+  .MuiButton-contained:hover {
+    background-color: #1976d2;
+  }
+  

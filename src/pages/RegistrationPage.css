@@ -1,0 +1,57 @@
+/* Container for the whole form */
+.registration-container {
+    margin-top: 50px;
+    background-color: #f5f7fa;
+    padding-bottom: 50px;
+  }
+  
+  /* Title and Subtitle */
+  .registration-title {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .registration-subtitle {
+    color: #7f8c8d;
+  }
+  
+  /* Form Card Styling */
+  .registration-form-card {
+    padding: 40px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input Fields */
+  input[type="file"] {
+    display: none;
+  }
+  
+  .profile-image-preview {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #16a085;
+    margin-left: 20px;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #2ecc71 !important;
+  }
+  
+  /* Error message styling */
+  .MuiFormHelperText-root {
+    font-size: 0.875rem;
+    color: #e74c3c;
+  }
+  
+  /* Custom Styling for Button */
+  .MuiButton-root {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  

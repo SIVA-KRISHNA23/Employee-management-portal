@@ -1,0 +1,148 @@
+/* Overall Container */
+.dashboard-container {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Smoke Fumes Background Animation */
+.animated-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 20%, rgba(0, 0, 0, 0.7) 80%);
+  background-size: 200% 200%;
+  animation: smokeFumesAnimation 20s ease-in-out infinite, gradientAnimation 15s ease infinite;
+  z-index: -1;
+}
+
+@keyframes smokeFumesAnimation {
+  0% {
+    background-position: 0% 50%;
+    opacity: 0.6;
+  }
+  25% {
+    background-position: 100% 50%;
+    opacity: 0.5;
+  }
+  50% {
+    background-position: 50% 100%;
+    opacity: 0.7;
+  }
+  75% {
+    background-position: 0% 50%;
+    opacity: 0.6;
+  }
+  100% {
+    background-position: 100% 50%;
+    opacity: 0.7;
+  }
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Dashboard Content */
+.dashboard-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 48px;
+}
+
+/* Title and Subtitle */
+.dashboard-title {
+  text-align: center;
+  margin-bottom: 16px;
+  color: #1c160a;
+  font-weight: bold;
+}
+
+.dashboard-subtitle {
+  text-align: center;
+  margin-bottom: 48px;
+  color: #1c160a;
+}
+
+/* Grid Item */
+.dashboard-grid-item {
+  perspective: 1000px;
+}
+
+/* Card Container */
+.dashboard-card-container {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transform: scale(1);
+}
+
+.dashboard-card-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Card */
+.dashboard-card {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Image */
+.dashboard-card-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Card Content */
+.dashboard-card-content {
+  text-align: center;
+  background-color: #fff;
+}
+
+.dashboard-card-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.dashboard-card-description {
+  margin-bottom: 16px;
+}
+
+/* Card Actions */
+.dashboard-card-actions {
+  justify-content: center;
+  background-color: #f9f9f9;
+  padding: 16px 0;
+}
+
+/* Button */
+.dashboard-card-button {
+  background-color: #814418; /* Brown color */
+  color: #fff;
+  text-transform: none;
+  padding: 8px 16px; /* Add some padding for better look */
+  border-radius: 8px; /* Rounded corners */
+  font-weight: bold; /* Make text bold */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.dashboard-card-button:hover {
+  background-color: #8B4513; /* Slightly darker brown on hover */
+  transform: scale(1.05); /* Add a subtle zoom effect on hover */
+}
+.dashboard-card-image {
+  height: 200px; /* Ensure height is set */
+  background-size: cover;
+  background-position: center;
+}

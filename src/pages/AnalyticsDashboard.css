@@ -1,0 +1,212 @@
+/* AnalyticsDashboard.css */
+
+/* General Container Styles */
+.analytics-dashboard-container {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    background-color: #f4f7fc;
+  }
+  
+  /* Hero Section */
+  .analytics-dashboard-hero {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .analytics-dashboard-title {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .analytics-dashboard-subtitle {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* Stats Section */
+  .analytics-stats-container {
+    margin-bottom: 40px;
+  }
+  
+  .analytics-stat-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .analytics-stat-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .analytics-stat-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .analytics-stat-icon {
+    font-size: 36px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .analytics-stat-value {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .analytics-stat-label {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Tabs Section */
+  .analytics-tabs-container {
+    margin-bottom: 40px;
+  }
+  
+  .MuiTabs-root {
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .MuiTab-root {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444;
+    padding: 10px 20px;
+  }
+  
+  .MuiTab-root.Mui-selected {
+    color: #2196f3;
+  }
+  
+  .overview-tab,
+  .products-tab,
+  .recent-activity-tab {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Chart Section */
+  .chart-card {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chart-placeholder {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    font-size: 30px;
+    color: #2196f3;
+  }
+  
+  /* Table Section */
+  .MuiTableContainer-root {
+    margin-top: 20px;
+  }
+  
+  .MuiTable-root {
+    min-width: 650px;
+  }
+  
+  .MuiTableHead-root {
+    background-color: #f5f5f5;
+  }
+  
+  .MuiTableCell-root {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .MuiTableRow-root:hover {
+    background-color: #fafafa;
+  }
+  
+  .MuiIconButton-root {
+    margin-right: 10px;
+  }
+  
+  /* Pagination Section */
+  .MuiPagination-root {
+    margin-top: 20px;
+  }
+  
+  .MuiPaginationItem-root {
+    font-size: 14px;
+    color: #2196f3;
+  }
+  
+  /* Recent Activity Feed */
+  .notification-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .notification-item .time {
+    color: #777;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  /* Notifications Dialog */
+  .MuiDialog-paper {
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .MuiDialogTitle-root {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .MuiDialogContent-root {
+    font-size: 16px;
+  }
+  
+  .MuiDialogActions-root {
+    padding: 10px;
+  }
+  
+  /* Input Field */
+  .MuiInputBase-root {
+    font-size: 14px;
+  }
+  
+  .MuiInputLabel-root {
+    font-size: 14px;
+  }
+  
+  .MuiInput-underline {
+    border-bottom: 2px solid #2196f3;
+  }
+  
+  /* Button Styles */
+  .MuiButton-contained {
+    background-color: #2196f3;
+    color: #fff;
+  }
+  
+  .MuiButton-contained:hover {
+    background-color: #1976d2;
+  }
+  
+  

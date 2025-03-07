@@ -1,0 +1,115 @@
+/* General Styles for Login Page
+.login-container {
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .login-form-paper {
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .login-title {
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .login-subtitle {
+    color: #7f8c8d;
+    margin-bottom: 20px;
+  }
+  
+  .login-button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #16a085;
+    color: white;
+    &:hover {
+      background-color: #1abc9c;
+    }
+  }
+  
+  
+  .MuiFormHelperText-root {
+    font-size: 12px;
+    color: #e74c3c;
+  }
+  
+  
+  .create-account-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #16a085;
+    &:hover {
+      color: #1abc9c;
+    }
+  }
+
+.MuiFormControlLabel-label {
+    font-weight: bold;
+    color: #16a085;
+  }
+  
+   */
+   /* General Styles for Login Page */
+.login-container {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.login-form-paper {
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.login-title {
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.login-subtitle {
+  color: #7f8c8d;
+  margin-bottom: 20px;
+}
+
+.login-button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #16a085;
+  color: white;
+}
+
+.login-button:hover {
+  background-color: #1abc9c;
+}
+
+/* Error message styling */
+.error-message {
+  font-size: 14px;
+  color: #e74c3c;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Styling for Create Account link */
+.create-account-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #16a085;
+}
+
+.create-account-link:hover {
+  color: #1abc9c;
+}
+
+/* Styling for the switch */
+.MuiFormControlLabel-label {
+  font-weight: bold;
+  color: #16a085;
+}
